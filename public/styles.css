@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #4a90e2;
+}
+
+header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+#data-visualization, #interaction-panel {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#data-visualization h2, #interaction-panel h2 {
+  font-size: 1.5rem;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+#dataChart {
+  max-width: 100%;
+  height: 300px;
+}
+
+#predict-button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#predict-button:hover {
+  background-color: #357ab7;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #4a90e2;
+}
+
